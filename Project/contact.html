@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="This is Purab Priyani's Ecommerce Website">
+    <title>Ecom Website</title>
+    <link rel="stylesheet" href="./css/stylecontact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- logo  -->
+        <div class="logo">
+            BERCELLE ANTIQUES
+        </div>
+        <!-- search bar -->
+        <input type="text" class="search-bar" placeholder="Search products here...">
+
+        <!-- Username -->
+        <div class="user-info">
+            <i class="fas fa-user user-icon"></i>
+            <span>Purab Priyani</span>
+        </div>
+    </header>
+
+    <!-- navbar code -->
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <hr>
+        <a href="about.html">About</a>
+        <hr>
+        <a class="active" href="contact.html">Contact</a>
+        <hr>
+        <a href="shop.html">Shop</a>
+    </nav>
+
+    <main>
+        <!-- Main content -->
+        <section>
+            <center><h2>Having Trouble with a Product?</h2></center>
+            <form class="contact-form">
+                <label for="fullName">Full Name <span class="required">*</span></label>
+                <input type="text" id="fullName" name="fullName" placeholder="Your Name..." required>
+    
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Your Email..." required>
+    
+                <label for="contactNumber">Contact Number <span class="required">*</span></label>
+                <input type="tel" id="contactNumber" placeholder="Contact Number..." name="contactNumber" required>
+    
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter message..." required></textarea>
+    
+                <center><button type="submit" class="send-btn">Send</button></center>
+            </form>
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
